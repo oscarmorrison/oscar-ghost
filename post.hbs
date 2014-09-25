@@ -1,0 +1,48 @@
+{{!< default}}
+
+<article class="{{post_class}}">
+{{! Everything inside the #post tags pulls data from the post }}
+{{#post}}
+
+  <header class="post-header">
+      <h1 class="post-title">{{title}}</h1>
+      <section class="post-meta">
+          <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
+      </section>
+  </header>
+
+  <section class="post-content">
+      {{content}}
+  </section>
+
+  <footer class="post-footer">
+
+  {{! Everything inside the #author tags pulls data from the author }}
+  {{#author}}
+
+      {{#if image}}
+      <figure class="author-image">
+          <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+      </figure>
+      {{/if}}
+
+      <section class="author">
+          <h4><a href="{{url}}">{{name}}</a></h4>
+
+          {{#if bio}}
+              <p>{{bio}}</p>
+          {{else}}
+              <p>Read <a href="{{url}}">more posts</a> by this author.</p>
+          {{/if}}
+          <div class="author-meta">
+              {{#if location}}<span class="author-location">{{location}}</span>{{/if}}
+              {{#if website}}<span class="author-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
+          </div>
+      </section>
+
+  {{/author}}
+
+  </footer>
+
+{{/post}}
+</article>

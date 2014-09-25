@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{asset "css/poole.css"}}">
+    <link rel="stylesheet" href="{{asset "css/syntax.css"}}">
+    <link rel="stylesheet" href="{{asset "css/lanyon.css"}}">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset "apple-touch-icon-precomposed.png"}}">
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+  </head>
+
+  <body class="{{body_class}}">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+    <!-- Toggleable sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-item">
+        <p>{{@blog.description}}</p>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item" href="{{@blog.url}}">Home</a>
+
+        {{! The code below dynamically generates a sidebar nav of posts tagged as static pages. }}
+        {{#foreach posts}}
+          {{#has tag="page"}}
+            <a class="sidebar-nav-item" href="{{ url }}">{{ title }}</a>
+          {{/has}}
+        {{/foreach}}
+      </nav>
+
+      <div class="sidebar-item">
+        <p>
+          &copy; {{date format="YYYY"}}. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{@blog.url}}" title="Home">{{@blog.title}}</a>
+            <small>{{@blog.description}}</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{{body}}}
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+  </body>
+</html>
