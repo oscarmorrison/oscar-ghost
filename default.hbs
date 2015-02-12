@@ -83,8 +83,9 @@
           var toggle = document.querySelector('.sidebar-toggle');
           var sidebar = document.querySelector('#sidebar');
           var checkbox = document.querySelector('#sidebar-checkbox');
+          var trigger = 'ontouchstart' in document ? 'touchstart' : 'click';
 
-          document.addEventListener('click', function(e) {
+          document.addEventListener(trigger, function(e) {
             var target = e.target;
 
             if(!checkbox.checked ||
