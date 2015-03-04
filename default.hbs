@@ -30,7 +30,9 @@
 
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
-    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    {{#if @blog.navigation}}
+      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    {{/if}}
 
     <!-- Toggleable sidebar -->
     <div class="sidebar" id="sidebar">
@@ -42,10 +44,8 @@
         <a class="sidebar-nav-item" href="{{@blog.url}}">Home</a>
 
         {{! The code below dynamically generates a sidebar nav of posts tagged as static pages. }}
-        {{#foreach posts}}
-          {{#has tag="page"}}
-            <a class="sidebar-nav-item" href="{{ url }}">{{ title }}</a>
-          {{/has}}
+        {{#foreach navigation}}
+          <a class="sidebar-nav-item sidebar-nav-{{slug}}" href="{{url absolute="true"}}">{{label}}</a>
         {{/foreach}}
       </nav>
 
@@ -73,25 +73,29 @@
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    {{#if @blog.navigation}}
+      <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    {{/if}}
 
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
+    {{#if @blog.navigation}}
+      <script>
+        (function(document) {
+          var toggle = document.querySelector('.sidebar-toggle');
+          var sidebar = document.querySelector('#sidebar');
+          var checkbox = document.querySelector('#sidebar-checkbox');
 
-        document.addEventListener('click', function(e) {
-          var target = e.target;
+          document.addEventListener('click', function(e) {
+            var target = e.target;
 
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
+            if(!checkbox.checked ||
+               sidebar.contains(target) ||
+               (target === checkbox || target === toggle)) return;
 
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
+            checkbox.checked = false;
+          }, false);
+        })(document);
+      </script>
+    {{/if}}
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
