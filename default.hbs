@@ -28,33 +28,7 @@
 
   <body class="{{body_class}}">
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-    {{#if @blog.navigation}}
-      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-    {{/if}}
-
-    <!-- Toggleable sidebar -->
-    <div class="sidebar" id="sidebar">
-      <div class="sidebar-item">
-        <p>{{@blog.description}}</p>
-      </div>
-
-      <nav class="sidebar-nav">
-        <a class="sidebar-nav-item" href="{{@blog.url}}">Home</a>
-
-        {{! The code below dynamically generates a sidebar nav of posts tagged as static pages. }}
-        {{#foreach navigation}}
-          <a class="sidebar-nav-item sidebar-nav-{{slug}}" href="{{url absolute="true"}}">{{label}}</a>
-        {{/foreach}}
-      </nav>
-
-      <div class="sidebar-item">
-        <p>
-          &copy; {{date format="YYYY"}}. All rights reserved.
-        </p>
-      </div>
-    </div>
+    {{navigation}}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
