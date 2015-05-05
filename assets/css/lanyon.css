@@ -572,6 +572,10 @@ a.pagination-item:hover {
  */
 
  /* The author credit area after the post */
+.footnotes {
+    font-size: 0.8rem;
+}
+
 .post-footer {
     position: relative;
     margin: 3rem 0 0 0;
