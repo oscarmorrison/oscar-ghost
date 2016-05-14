@@ -13,10 +13,6 @@ Live theme in use:
 - <https://github.com/oscarmorrison>
 - <https://twitter.com/oscargemorrison>
 
-**Daniel Jost** - Ghost conversion
-- <https://github.com/PxlBuzzard>
-- <https://twitter.com/_danieljost_>
-
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
