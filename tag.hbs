@@ -1,4 +1,7 @@
 {{!< default}}
+  <h1 class="tag-title">
+    {{#tag}}{{name}}{{/tag}}
+  </h1>
 
   {{#foreach posts}}
   <article class="{{post_class}}">
@@ -9,11 +12,9 @@
               <span class="tags">{{tags}}</span>
           </section>
       </header>
-      <a class="read-more" href="{{url}}">
-        <section class="post-excerpt">
-            <p>{{excerpt words="30"}}...</p>
-        </section>
-      </a>
+      <section class="post-excerpt">
+          <p>{{excerpt words="30"}}... <a class="read-more" href="{{url}}">&raquo;</a></p>
+      </section>
   </article>
   {{/foreach}}
 </div>
