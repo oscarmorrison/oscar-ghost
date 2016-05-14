@@ -30,7 +30,6 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', Helvetica, Arial, sans-serif;
-  font-weight: 200;
   color: #313131;
   letter-spacing: -.025rem;
 }
@@ -93,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .masthead-title small {
   font-size: 75%;
-  font-weight: 200;
+  font-weight: 100;
   font-style: italic;
   color: #c0c0c0;
   letter-spacing: 0;
@@ -155,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem;
   font-style: italic;
   color: #8A8A8A;
-  font-weight: 200;
+  font-weight: 100;
 }
 .sidebar-item p:last-child {
   margin-bottom: 0;
@@ -647,6 +646,11 @@ a.pagination-item:hover {
 
 .post-footer h4 a:hover {
     text-decoration: underline;
+}
+
+.post-template .post-header{
+  border-bottom: #EBF2F6 1px solid;
+  margin-bottom: 2em;
 }
 
 .tag-head.main-header {

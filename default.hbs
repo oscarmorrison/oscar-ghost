@@ -13,10 +13,11 @@
     <meta name="description" content="{{meta_description}}" />
 
     <!-- CSS -->
+    <link rel="stylesheet" href="{{asset "css/prism.css"}}">
     <link rel="stylesheet" href="{{asset "css/poole.css"}}">
     <link rel="stylesheet" href="{{asset "css/syntax.css"}}">
     <link rel="stylesheet" href="{{asset "css/oscar.css"}}">
-    <link rel="stylesheet" href="fonts.googleapis.com/css?family=Lato:400,400italic,700">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,300italic">
 
     <!-- Icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset "apple-touch-icon-precomposed.png"}}">
@@ -71,7 +72,7 @@
         })(document);
       </script>
     {{/if}}
-
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script> 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
   </body>
