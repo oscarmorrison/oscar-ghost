@@ -25,6 +25,12 @@ Live theme in use:
 
 [![ScreenGif](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/ScreenDemo.gif)](http://blog.oscarmorrison.com)
 
+## Installation
+
+- Download the [Theme](https://github.com/oscarmorrison/oscar-ghost/archive/master.zip)
+- Install the Theme ([Instructions](http://support.ghost.org/switch-themes/)]
+
+
 ## Author
 
 **Oscar Morrison**
