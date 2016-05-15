@@ -8,7 +8,7 @@
 Live theme in use:
 [blog.oscarmorrison.com](http://blog.oscarmorrison.com)
 
-![ScreenGif](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/ScreenDemo.gif)(http://blog.oscarmorrison.com)
+[![ScreenGif](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/ScreenDemo.gif)](http://blog.oscarmorrison.com)
 
 ## Author
 
