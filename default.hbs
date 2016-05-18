@@ -15,6 +15,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{asset "css/prism.css"}}">
     <link rel="stylesheet" href="{{asset "css/poole.css"}}">
+    <link rel="stylesheet" href="{{asset "css/iconmoon.css"}}">
     <link rel="stylesheet" href="{{asset "css/syntax.css"}}">
     <link rel="stylesheet" href="{{asset "css/oscar.css"}}">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,300italic">
@@ -27,9 +28,7 @@
     {{ghost_head}}
   </head>
 
-  <body class="{{body_class}} layout-reverse">
-
-    {{navigation}}
+  <body class="{{body_class}}">
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
@@ -41,6 +40,7 @@
             <small>{{@blog.description}}</small>
           </h2>
         </div>
+        {{navigation}}
       </div>
 
       <div class="container content">
@@ -48,30 +48,6 @@
       </div>
     </div>
 
-    {{#if @blog.navigation}}
-      <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-    {{/if}}
-
-    {{#if @blog.navigation}}
-      <script>
-        (function(document) {
-          var toggle = document.querySelector('.sidebar-toggle');
-          var sidebar = document.querySelector('#sidebar');
-          var checkbox = document.querySelector('#sidebar-checkbox');
-          var trigger = 'ontouchstart' in document ? 'touchstart' : 'click';
-
-          document.addEventListener(trigger, function(e) {
-            var target = e.target;
-
-            if(!checkbox.checked ||
-               sidebar.contains(target) ||
-               (target === checkbox || target === toggle)) return;
-
-            checkbox.checked = false;
-          }, false);
-        })(document);
-      </script>
-    {{/if}}
     <script type="text/javascript" src="{{asset "js/prism.js"}}"></script> 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}

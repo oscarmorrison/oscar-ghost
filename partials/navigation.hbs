@@ -1,21 +1,8 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
- styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{@blog.description}}</p>
-  </div>
-
-  <nav class="sidebar-nav">
+  <nav class="nav container">
     {{! The code below dynamically generates a sidebar nav of posts tagged as static pages. }}
     {{#foreach navigation}}
-      <a class="sidebar-nav-item sidebar-nav-{{slug}} {{#if current}}active{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
+      <a class="nav-item sidebar-nav-{{slug}} {{#if current}}active{{/if}}" href="{{url absolute="true"}}" target="_blank">
+        <i class="nav-icon icon-{{slug}}"></i>
+      </a>
     {{/foreach}}
   </nav>
-
-  <div class="sidebar-item">
-    <p>&copy; {{date format="YYYY"}}. All rights reserved.</p>
-  </div>
-</div>
