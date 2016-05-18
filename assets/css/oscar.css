@@ -81,6 +81,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  display: inline-block;
+  width: 100%;
 }
 .masthead-title {
   margin-top: 0;
@@ -179,6 +181,10 @@ a.nav-item{
  .page,
  .post {
   margin-bottom: 4em;
+}
+
+.post-content a {
+    color: #1abc9c;
 }
 
 /* Blog post or page title */
