@@ -12,9 +12,11 @@
               <span class="tags">{{tags}}</span>
           </section>
       </header>
-      <section class="post-excerpt">
-          <p>{{excerpt words="30"}}... <a class="read-more" href="{{url}}">&raquo;</a></p>
-      </section>
+      <a class="read-more" href="{{url}}">
+        <section class="post-excerpt">
+          <p>{{excerpt words="30"}}...</p>
+        </section>
+      </a>
   </article>
   {{/foreach}}
 </div>
