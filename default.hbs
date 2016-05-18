@@ -36,7 +36,7 @@
       <div class="masthead">
         <div class="container">
           <h2 class="masthead-title">
-            <a href="{{@blog.url}}" title="Home">{{@blog.title}}</a>
+            {{@blog.title}}
             <small>{{@blog.description}}</small>
           </h2>
         </div>
@@ -48,7 +48,9 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/oscar.js"}}"></script>
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
   </body>
