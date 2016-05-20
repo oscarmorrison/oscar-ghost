@@ -99,12 +99,16 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 
+.home-template .masthead-title, .tag-template .masthead-title {
+    font-size: 150%;
+}
+
 .post-template .masthead-title a{
     color: #c0c0c0;
 }
 
 .post-template .masthead-title small{
-    color: #D4D4D4;
+    color: #E7E7E7;
 }
 
 .post-template .masthead{
@@ -223,6 +227,8 @@ a.nav-item{
   color: #9a9a9a;
 }
 
+/*************Tags**************/
+
 .tags{
   color: white;
 }
@@ -251,7 +257,19 @@ a.nav-item{
     border: 1px solid;
     border-color: #707070;
     border-radius: 5px;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+
+.tag-description{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.tag-image{
+    max-width: 30%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
 }
 
 a.read-more:hover{

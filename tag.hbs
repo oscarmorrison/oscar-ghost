@@ -1,10 +1,11 @@
 {{!< default}}
-
+    {{#tag}}
     <header class="tag-header">
-        <h1 class="tag-title">
-          {{#tag}}{{name}}{{/tag}}
-      </h1>
+        <h1 class="tag-title">{{name}}</h1>
+        <img class="tag-image" src="{{image}}">
+        <p class="tag-description">{{description}}</p>
     </header>
+    {{/tag}}
 
     {{#foreach posts}}
     <article class="{{post_class}}">
