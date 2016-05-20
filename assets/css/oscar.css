@@ -77,8 +77,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 
  .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
+  padding-top:    0.5rem;
+  padding-bottom: 0.5rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
   display: inline-block;
@@ -99,8 +99,27 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 
-.home-template .masthead-title, .tag-template .masthead-title {
+.home-template .masthead-title {
     font-size: 150%;
+    padding-top:    1rem;
+    padding-bottom: 1rem;
+}
+
+@keyframes mastheadShrink{
+    from    {  font-size: 150%;
+               padding-top:    1rem;
+               padding-bottom: 1rem;
+            }
+    to      {  font-size: 100%;
+               padding-top:    0.5rem;
+               padding-bottom: 0.5rem;
+            }
+}
+
+.tag-template .masthead-title {
+    font-size: 150%;
+    padding-top:    1rem;
+    padding-bottom: 1rem;
 }
 
 .post-template .masthead-title a{
@@ -112,8 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-template .masthead{
-    padding-top:    0.5rem;
-    padding-bottom: 0.5rem;    
+    animation: mastheadShrink 0.5s linear;
 }
 
 

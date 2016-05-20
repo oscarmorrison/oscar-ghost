@@ -30,22 +30,18 @@
 
   <body class="{{body_class}}">
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
+    <div class="masthead">
         <div class="container">
-          <h2 class="masthead-title">
-            <a href="{{@blog.url}}" title="Home">{{@blog.title}}</a>
-            <small>{{@blog.description}}</small>
-          </h2>
+            <h2 class="masthead-title">
+                <a href="{{@blog.url}}" title="Home">{{@blog.title}}</a>
+                <small>{{@blog.description}}</small>
+            </h2>
         </div>
         {{navigation}}
-      </div>
+    </div>
 
-      <div class="container content">
+    <div class="container content">
         {{{body}}}
-      </div>
     </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>

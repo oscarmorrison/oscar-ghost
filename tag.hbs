@@ -2,7 +2,7 @@
     {{#tag}}
     <header class="tag-header">
         <h1 class="tag-title">{{name}}</h1>
-        <img class="tag-image" src="{{image}}">
+        {{#if image}}<img class="tag-image" src="{{image}}">{{/if}}
         <p class="tag-description">{{description}}</p>
     </header>
     {{/tag}}
