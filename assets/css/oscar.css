@@ -222,6 +222,11 @@ a.nav-item{
     color: #1abc9c;
 }
 
+.post-content img {
+    display: block;
+    margin: auto;
+}
+
 /* Blog post or page title */
 .page-title,
 .post-title,
