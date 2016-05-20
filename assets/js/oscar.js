@@ -1,5 +1,5 @@
 $('.masthead').mouseenter(function(){
-	$('.nav').slideToggle();
+	$('.nav').slideToggle(240);
 }).mouseleave(function(){
-	$('.nav').slideToggle();
+	$('.nav').slideToggle(240);
 });

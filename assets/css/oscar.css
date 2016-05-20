@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
  * Center the page content.
  */
 
-.container {
+ .container {
     max-width: 28rem;
 }
 @media (min-width: 38em) {
@@ -87,7 +87,6 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
 }
 .masthead-title a {
   color: #505050;
@@ -99,6 +98,20 @@ h1, h2, h3, h4, h5, h6 {
   color: #c0c0c0;
   letter-spacing: 0;
 }
+
+.post-template .masthead-title a{
+    color: #c0c0c0;
+}
+
+.post-template .masthead-title small{
+    color: #D4D4D4;
+}
+
+.post-template .masthead{
+    padding-top:    0.5rem;
+    padding-bottom: 0.5rem;    
+}
+
 
 @media (max-width: 48em) {
     .masthead-title {
@@ -232,6 +245,7 @@ a.nav-item{
 
 .tag-title{
     display: inline-block;
+    text-align: center;
     font-size: 100%;
     padding: 5px 8px;
     border: 1px solid;
@@ -380,6 +394,20 @@ a.pagination-item:hover {
 .post-template .post-header{
   border-bottom: #EBF2F6 1px solid;
   margin-bottom: 2em;
+  text-align: center;
+}
+
+.tag-template .tag-header{
+  border-bottom: #EBF2F6 1px solid;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.post-image{
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
 }
 
 .tag-head.main-header {
