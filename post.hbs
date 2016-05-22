@@ -11,13 +11,23 @@
           <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>
           <span class="tags">{{tags}}</span>
       </section>
-      <img class="post-image" src="{{image}}">
+      {{#if image}}<img class="post-image" src="{{image}}">{{/if}}
   </header>
 
 
-  <section class="post-content">
+  {{#has tag="gallery"}}
+    {{> photoswipe}}
+    <section class="post-content post-gallery">
+    {{content}}
+    </section>
+    <link rel="stylesheet" href="{{asset "css/photoswipe.css"}}">
+    <script type="text/javascript" src="{{asset "js/photoswipe.min.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/photoswipe-ui-default.min.js"}}"></script>
+  {{else}}
+    <section class="post-content">
       {{content}}
-  </section>
+    </section>
+  {{/has}}
 
   <footer class="post-footer">
   </footer>
