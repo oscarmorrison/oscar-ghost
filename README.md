@@ -1,7 +1,10 @@
 # Oscar for Ghost
 [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) ![Ghost version](https://img.shields.io/badge/ghost-v0.8.0-blue.svg)
 
-![Mockup](https://blogoscarmorrison.s3.amazonaws.com/2016/May/BlogThemeMockup_2-1463324076383.jpg)
+Live theme in use:
+[blog.oscarmorrison.com](http://blog.oscarmorrison.com)
+
+[![ScreenGif](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/ScreenDemo.gif)](http://blog.oscarmorrison.com)
 
 ## Introduction
 The **Oscar Ghost** Theme is a simple, clean, minimalistic theme built for ghost. The theme is build on an original 
@@ -23,12 +26,6 @@ Now fully supports [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
 - Gallery Viewer (Photoswipe) ([#10](https://github.com/oscarmorrison/oscar-ghost/issues/10))
 - Custom Gallery Post Listing
 
-
-## Demo
-Live theme in use:
-[blog.oscarmorrison.com](http://blog.oscarmorrison.com)
-
-[![ScreenGif](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/ScreenDemo.gif)](http://blog.oscarmorrison.com)
 
 ## Customization
 ### Navigation
