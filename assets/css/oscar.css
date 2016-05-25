@@ -227,6 +227,10 @@ a.nav-item{
     margin: auto;
 }
 
+.post-gallery img {
+  cursor: pointer;
+}
+
 /* Blog post or page title */
 .page-title,
 .post-title,
@@ -236,6 +240,10 @@ a.nav-item{
 .page-title,
 .post-title {
   margin-top: 0;
+}
+
+i.header-icon {
+  font-size: 80%;
 }
 
 /* Meta data line below post title */
