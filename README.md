@@ -32,11 +32,12 @@ Live theme in use:
 
 ## Customization
 ### Navigation
-[![NavBar](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/navigationBar.png)]  
+![NavBar](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/navigationBar.png)   
 The navigation menu can be customize throught the [ghost admin](https://blog.ghost.org/navigation/), 
-the theme come with 32 custom icons that can be used in the nav bar menu.
-Please see here for all icons http://ogem.co/blogiconmoon
-simply just use the icon class name e.g **mobile** for -> icon-**mobile**.
+the theme come with 32 custom icons that can be used in the nav bar menu.  
+Please see here for all icons http://ogem.co/blogiconmoon  
+simply just use the icon class name   
+e.g **mobile** for -> icon-**mobile**.
 
 
 ## Installation
