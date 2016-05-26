@@ -7,8 +7,9 @@ Live theme in use:
 [![ScreenGif](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/ScreenDemo.gif)](http://blog.oscarmorrison.com)
 
 ## Introduction
-The **Oscar Ghost** Theme is a simple, clean, minimalistic theme built for ghost. The theme is build on an original 
-fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme. It still retains the majority of functionality from this theme, and if you would like to use some of its styling and features please check it out. 
+The **Oscar Ghost** Theme is a clean, simple, minimalistic theme built for ghost. The theme is built from an original 
+fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme. 
+
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
@@ -39,8 +40,11 @@ e.g **mobile** for -> icon-**mobile**.
 
 ## Installation
 
-- Download the [Theme](https://github.com/oscarmorrison/oscar-ghost/archive/master.zip)
+- Download the [Theme](https://github.com/oscarmorrison/oscar-ghost/archive/master.zip) .zip
 - Install the Theme ([Instructions](http://support.ghost.org/switch-themes/)]
+    - Unzip the folder and upload to 'ghost/content/themes'
+    - Restart ghost and log in
+    - Go to settings > themes and select Upholsterygeist
 
 ### Cost
 Free. As in free beer...   
