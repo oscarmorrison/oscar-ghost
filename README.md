@@ -1,5 +1,5 @@
 # Oscar for Ghost
-[![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) ![Ghost version](https://img.shields.io/badge/ghost-v0.8.0-blue.svg)
+![Ghost version](https://img.shields.io/badge/ghost-v0.8.0-blue.svg)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
 
 Live theme in use:
 [blog.oscarmorrison.com](http://blog.oscarmorrison.com)
