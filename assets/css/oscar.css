@@ -18,9 +18,9 @@
  * Update the foundational and global aspects of the page.
  */
 
- /* Prevent scroll on narrow devices */
- html,
- body {
+/* Prevent scroll on narrow devices */
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
  * regular page content.
  */
 
- .wrap {
+.wrap {
   position: relative;
   width: 100%;
 }
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
  * Center the page content.
  */
 
- .container {
+.container {
     max-width: 28rem;
 }
 @media (min-width: 38em) {
@@ -341,13 +341,12 @@ a.read-more:hover{
  * there are no more previous or next posts to show.
  */
 
- .pagination {
+.pagination {
   overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
+  width: 100%;
 }
 
 /* Pagination items can be `span`s or `a`s */
