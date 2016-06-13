@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+IFS=$'\n\t'
+set -vx
+
+git pull --rebase &&\
+sass -v || gem install sass --no-ri --no-rdoc &&\
+sass assets/sass/application.scss:assets/css/application.css --style compressed
