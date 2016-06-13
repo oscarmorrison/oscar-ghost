@@ -40,3 +40,7 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
+
+# SASS Files
+.sass-cache
+/assets/css/*.css*
