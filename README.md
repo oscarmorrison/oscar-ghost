@@ -37,6 +37,13 @@ Please see here for all icons http://ogem.co/blogiconmoon
 simply just use the icon class name   
 e.g **mobile** for -> icon-**mobile**.
 
+### Gallery
+To get the full benefits of the Gallery Viewer (Photoswipe) in a blog post, simply tag the post with 
+**gallery**. Any post that is of type gallery will get special behavior. 
+* Gallery Post will be displayed differently in a the list post view, they will show special gallery icon, and will not show any description.
+* Gallery Post will have special behavior for the user. The images will all have a cursor pointer and be clickable. Once any image is clicked, the photoswipe viewer will open in full view. 
+* To add images to a gallery post, add them as you normally would with any post.
+
 
 ## Installation
 
@@ -48,8 +55,8 @@ e.g **mobile** for -> icon-**mobile**.
 
 ### Cost
 Free. As in free beer...   
-If you like the theme, and would like me to keep building cool free ghost themes feel free to 
-buy me a beer.  
+If you like the theme, and would like me to keep building cool free ghost themes feel free to buy
+ me a beer.  
 [![Paypal Badge](http://blogoscarmorrison.s3.amazonaws.com/2016/May/PaypalBadgeSmall.png)](http://paypal.me/oscarmorrison)
 
 ## Author
