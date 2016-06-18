@@ -24,7 +24,7 @@ Now fully supports [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
 - Date Styling
 - Removed Author from Posts
 - Custom Navigation Menu ([#7](https://github.com/oscarmorrison/oscar-ghost/issues/7))
-- Gallery Viewer (Photoswipe) ([#10](https://github.com/oscarmorrison/oscar-ghost/issues/10))
+- Gallery Viewer ([Photoswipe](http://photoswipe.com/)) ([#10](https://github.com/oscarmorrison/oscar-ghost/issues/10))
 - Custom Gallery Post Listing
 
 
