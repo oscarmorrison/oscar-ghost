@@ -577,3 +577,19 @@ pagination prev/next links */
     visibility: hidden;
     display: none;
 }
+
+.more-posts{
+    font-weight: lighter;
+}
+
+.pull-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.pull-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
