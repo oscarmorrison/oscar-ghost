@@ -1,4 +1,6 @@
 {
-  "name": "Oscar",
-  "version": "1.0"
+  "name": "oscar-ghost",
+  "author": "Oscar Morrison",
+  "description":"A clean minimal ghost theme",
+  "version": "1.0.1"
 }
