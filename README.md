@@ -16,7 +16,7 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
 - v1.0.1 (3 Dec 16)  
  - Support for  [Ghost 0.11.3](https://dev.ghost.org/ghost-0-11-3/)  
  - Added new [icons](http://ogem.co/blogiconmoon)
-- v1.0.0(24 May 16)   
+- v1.0.0 (24 May 16)   
   Support for [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
 
 ## Specs
