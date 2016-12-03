@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'oscar-icons';
-  src:  url('fonts/oscar-icons.eot?fs397p');
-  src:  url('fonts/oscar-icons.eot?fs397p#iefix') format('embedded-opentype'),
-    url('fonts/oscar-icons.ttf?fs397p') format('truetype'),
-    url('fonts/oscar-icons.woff?fs397p') format('woff'),
-    url('fonts/oscar-icons.svg?fs397p#oscar-icons') format('svg');
+  src:  url('../fonts/oscar-icons.eot?fs397p');
+  src:  url('../fonts/oscar-icons.eot?fs397p#iefix') format('embedded-opentype'),
+    url('../fonts/oscar-icons.ttf?fs397p') format('truetype'),
+    url('../fonts/oscar-icons.woff?fs397p') format('woff'),
+    url('../fonts/oscar-icons.svg?fs397p#oscar-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
