@@ -4,7 +4,7 @@
 Live theme in use:
 [blog.oscarmorrison.com](http://blog.oscarmorrison.com)
 
-[![ScreenGif](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/ScreenDemo.gif)](http://blog.oscarmorrison.com)
+[![ScreenGif](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/ScreenDemo.gif)](http://blog.oscarmorrison.com)
 
 ## Introduction
 The **Oscar Ghost** Theme is a clean, simple, minimalistic theme built for ghost. The theme is built from an original 
@@ -31,12 +31,14 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
 
 ## Customization
 ### Navigation
-![NavBar](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/navigationBar.png)   
+![NavBar](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/navigationBar.png)   
 The navigation menu can be customize through the [ghost admin](https://blog.ghost.org/navigation/), 
 the theme come with 32 custom icons that can be used in the nav bar menu.  
 Please see here for all icons http://ogem.co/blogiconmoon  
 simply just use the icon class name   
 e.g **mobile** for -> icon-**mobile**.
+![Navigation](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/navigation.png)   
+
 
 ### Gallery
 To get the full benefits of the Gallery Viewer (Photoswipe) in a blog post, simply tag the post with 
