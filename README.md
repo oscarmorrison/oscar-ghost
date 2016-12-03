@@ -1,5 +1,5 @@
 # Oscar for Ghost
-![Ghost version](https://img.shields.io/badge/ghost-v0.8.0-blue.svg)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
+![Ghost version](https://img.shields.io/badge/ghost-v0.11.3-blue.svg)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
 
 Live theme in use:
 [blog.oscarmorrison.com](http://blog.oscarmorrison.com)
@@ -13,7 +13,8 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
-Now fully supports [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
+- (3 Dec 16) Support for  [Ghost 0.11.3](https://dev.ghost.org/ghost-0-11-3/)  
+- ~~(24 May 16) Support for [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)~~
 
 ## Specs
 - [Prism.js](http://prismjs.com) Code Highlighting (Bash, Swift, JS, C, ...)
@@ -31,7 +32,7 @@ Now fully supports [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
 ## Customization
 ### Navigation
 ![NavBar](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/navigationBar.png)   
-The navigation menu can be customize throught the [ghost admin](https://blog.ghost.org/navigation/), 
+The navigation menu can be customize through the [ghost admin](https://blog.ghost.org/navigation/), 
 the theme come with 32 custom icons that can be used in the nav bar menu.  
 Please see here for all icons http://ogem.co/blogiconmoon  
 simply just use the icon class name   
