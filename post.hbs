@@ -30,6 +30,14 @@
   {{/has}}
 
   <footer class="post-footer">
+        <div class="more-posts">
+        {{#next_post}}
+            <span class="pull-left"><a href="{{url}}">⇠  {{title}}</a></span>
+        {{/next_post}}
+        {{#prev_post}}
+        <span class="pull-right"><a href="{{url}}">{{title}} ⇢ </a></span>
+        {{/prev_post}}
+        </div>
   </footer>
 
   {{/post}}

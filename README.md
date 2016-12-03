@@ -13,6 +13,9 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
+- v1.0.2 (3 Dec 16)  
+ - Add next and previous post links to Post.hbs
+ - Open all external links in new tab
 - v1.0.1 (3 Dec 16)  
  - Support for  [Ghost 0.11.3](https://dev.ghost.org/ghost-0-11-3/)  
  - Added new [icons](http://ogem.co/blogiconmoon)
