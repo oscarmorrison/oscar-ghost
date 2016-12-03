@@ -1,10 +1,10 @@
 # Oscar for Ghost
-![Ghost version](https://img.shields.io/badge/ghost-v0.8.0-blue.svg)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
+![Ghost version](https://img.shields.io/badge/ghost-v0.11.3-blue.svg)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
 
 Live theme in use:
 [blog.oscarmorrison.com](http://blog.oscarmorrison.com)
 
-[![ScreenGif](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/ScreenDemo.gif)](http://blog.oscarmorrison.com)
+![ScreenGif](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/ghostscreencast.gif)
 
 ## Introduction
 The **Oscar Ghost** Theme is a clean, simple, minimalistic theme built for ghost. The theme is built from an original 
@@ -13,7 +13,11 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
-Now fully supports [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
+- v1.0.1 (3 Dec 16)  
+ - Support for  [Ghost 0.11.3](https://dev.ghost.org/ghost-0-11-3/)  
+ - Added new [icons](http://ogem.co/blogiconmoon)
+- v1.0.0(24 May 16)   
+  Support for [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
 
 ## Specs
 - [Prism.js](http://prismjs.com) Code Highlighting (Bash, Swift, JS, C, ...)
@@ -30,12 +34,14 @@ Now fully supports [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
 
 ## Customization
 ### Navigation
-![NavBar](https://raw.githubusercontent.com/oscarmorrison/oscar-ghost/master/navigationBar.png)   
-The navigation menu can be customize throught the [ghost admin](https://blog.ghost.org/navigation/), 
+![NavBar](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/navigationBar.png)   
+The navigation menu can be customize through the [ghost admin](https://blog.ghost.org/navigation/), 
 the theme come with 32 custom icons that can be used in the nav bar menu.  
 Please see here for all icons http://ogem.co/blogiconmoon  
 simply just use the icon class name   
 e.g **mobile** for -> icon-**mobile**.
+![Navigation](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/navigation.png)   
+
 
 ### Gallery
 To get the full benefits of the Gallery Viewer (Photoswipe) in a blog post, simply tag the post with 
