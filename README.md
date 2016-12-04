@@ -1,8 +1,9 @@
 # Oscar for Ghost
 ![Ghost version](https://img.shields.io/badge/ghost-v0.11.3-blue.svg)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
 
-Live theme in use:
-[blog.oscarmorrison.com](http://blog.oscarmorrison.com)
+![Logo](http://blogoscarmorrison.s3.amazonaws.com/2016/12/logo.png)
+
+*Demo:* [blog.oscarmorrison.com](http://blog.oscarmorrison.com)
 
 ![ScreenGif](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/ghostscreencast.gif)
 
@@ -20,17 +21,18 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
  - Support for  [Ghost 0.11.3](https://dev.ghost.org/ghost-0-11-3/)  
  - Added new [icons](http://ogem.co/blogiconmoon)
 - v1.0.0 (24 May 16)   
-  Support for [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/)
+  Support for [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/
 
-## Specs
+## Features
+- Custom Navigation Menu ([#7](https://github.com/oscarmorrison/oscar-ghost/issues/7))
 - [Prism.js](http://prismjs.com) Code Highlighting (Bash, Swift, JS, C, ...)
 - Font: [Lato](https://www.google.com/fonts/specimen/Lato) weights 100,300,300italic
-- Featured Image
-- Added Custom Tag Page
+- Automatic internal and external linking
+- Featured Image on Posts
+- Custom Tag Home Page
 - Tag Styling
 - Date Styling
-- Removed Author from Posts
-- Custom Navigation Menu ([#7](https://github.com/oscarmorrison/oscar-ghost/issues/7))
+- Single Author (no Author on Posts)
 - Gallery Viewer ([Photoswipe](http://photoswipe.com/)) ([#10](https://github.com/oscarmorrison/oscar-ghost/issues/10))
 - Custom Gallery Post Listing
 
