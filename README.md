@@ -42,7 +42,7 @@ The navigation menu can be customize through the [ghost admin](https://blog.ghos
 the theme come with 32 custom icons that can be used in the nav bar menu.  
 Please see here for all icons http://ogem.co/blogiconmoon  
 simply just use the icon class name   
-e.g **mobile** for -> icon-**mobile**.
+e.g **icon-twitter** for -> **twitter**.
 ![Navigation](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/navigation.png)   
 
 
