@@ -14,6 +14,8 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
+- v1.0.3 (4 Jan 16)
+ - Support additional language for syntax highlighting (Go, Python, MD)
 - v1.0.2 (3 Dec 16)  
  - Add next and previous post links to Post.hbs
  - Open all external links in new tab
@@ -25,7 +27,7 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
 
 ## Features
 - Custom Navigation Menu ([#7](https://github.com/oscarmorrison/oscar-ghost/issues/7))
-- [Prism.js](http://prismjs.com) Code Highlighting (Bash, Swift, JS, C, ...)
+- [Prism.js](http://prismjs.com) Code Highlighting (Markup, Bash, Swift, JS, C, Go, Python...)
 - Font: [Lato](https://www.google.com/fonts/specimen/Lato) weights 100,300,300italic
 - Automatic internal and external linking
 - Featured Image on Posts
@@ -54,6 +56,12 @@ To get the full benefits of the Gallery Viewer (Photoswipe) in a blog post, simp
 * Gallery Post will be displayed differently in a the list post view, they will show special gallery icon, and will not show any description.
 * Gallery Post will have special behavior for the user. The images will all have a cursor pointer and be clickable. Once any image is clicked, the photoswipe viewer will open in full view. 
 * To add images to a gallery post, add them as you normally would with any post.
+
+### Code Syntax Highlighting
+Use [prismjs](http://prismjs.com/download.html) for syntax highlighting.  
+in your blog symply surround code block with:
+
+```language-bash  
 
 
 ## Installation
