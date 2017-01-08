@@ -1,5 +1,5 @@
 # Oscar for Ghost
-![Ghost version](https://img.shields.io/badge/ghost-v0.11.3-blue.svg)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
+[![Ghost version](https://img.shields.io/badge/ghost-v0.11.3-blue.svg)](https://github.com/tryghost/ghost)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
 
 ![Logo](http://blogoscarmorrison.s3.amazonaws.com/2016/12/logo.png)
 
