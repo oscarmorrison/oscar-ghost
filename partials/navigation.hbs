@@ -1,7 +1,4 @@
 <nav class="nav container">
-    <a class="nav-item sidebar-nav-home {{#if current}}active{{/if}}" href="/">
-        <i class="nav-icon icon-home"></i>
-    </a>
     {{#foreach navigation}}
         <a class="nav-item sidebar-nav-{{slug}} {{#if current}}active{{/if}}" href="{{url absolute="true"}}">
             <i class="nav-icon icon-{{slug}}"></i>
