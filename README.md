@@ -85,7 +85,7 @@ To get the full benefits of the Gallery Viewer (Photoswipe) in a blog post, simp
 Use [prismjs](http://prismjs.com/download.html) for syntax highlighting.  
 in your blog symply surround code block with:
 
-```language-bash  
+\```language-bash  
 
 
 ## Installation
