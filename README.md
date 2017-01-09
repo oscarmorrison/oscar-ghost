@@ -60,6 +60,7 @@ let oscar = {
 
 **animatedNav:**  if the nav auto hides, or is shown  
 **tagMenu:** if the secondary tag menu is shown  
+*tagMenu is dependant on ghost api beta feature this can be turned on under [Ghost Admin] -> [Labs] -> [Public API]*  
 **tagKey:** what the custom key to look for in the tag description is. (this can be any string)  
 **requirePosts:** show only tags that have posts in them  
 
