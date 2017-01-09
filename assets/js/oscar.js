@@ -21,7 +21,7 @@ $('a[href^=http]').each(function(){
 });
 
 if(location.pathname === '/' && oscar.tagMenu) {
-    $.get(ghost.url.api('tags', {include: 'count.posts', order: 'count.posts DESC'}))
+    $.get(ghost.url.api('tags', {limit: 'all', include: 'count.posts', order: 'count.posts DESC'}))
         .then(function(data) {
             var navTags = data.tags.filter(function(tag){
                 return (oscar.requirePosts

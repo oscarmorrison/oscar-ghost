@@ -14,6 +14,9 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
+- v1.0.4 (8 Jan 16)
+ - Add ability to config features
+ - Add tag sub menu
 - v1.0.3 (4 Jan 16)
  - Support additional language for syntax highlighting (Go, Python, MD)
 - v1.0.2 (3 Dec 16)  
@@ -26,7 +29,9 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
   Support for [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/
 
 ## Features
+- Configurable Features
 - Custom Navigation Menu ([#7](https://github.com/oscarmorrison/oscar-ghost/issues/7))
+- Submenu for tags ([#20](https://github.com/oscarmorrison/oscar-ghost/pull/20))
 - [Prism.js](http://prismjs.com) Code Highlighting (Markup, Bash, Swift, JS, C, Go, Python...)
 - Font: [Lato](https://www.google.com/fonts/specimen/Lato) weights 100,300,300italic
 - Automatic internal and external linking
@@ -40,6 +45,24 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
 
 
 ## Customization
+
+### Configuration
+I have included with v1.0.4 a way to do some basic feature configuration that is often asked for:
+These are the default values (found in oscar.js):
+```
+let oscar = {
+    animatedNav: true,
+    tagMenu: true,
+    tagKey: '#tagnav',
+    requirePosts: false
+};
+```
+
+**animatedNav:**  if the nav auto hides, or is shown  
+**tagMenu:** if the secondary tag menu is shown  
+**tagKey:** what the custom key to look for in the tag description is. (this can be any string)  
+**requirePosts:** show only tags that have posts in them  
+
 ### Navigation
 ![NavBar](http://blogoscarmorrison.s3.amazonaws.com/2016/Dec/navigationBar.png)   
 The navigation menu can be customize through the [ghost admin](https://blog.ghost.org/navigation/), 
