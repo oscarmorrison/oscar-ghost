@@ -79,7 +79,6 @@ h1, h2, h3, h4, h5, h6 {
  .masthead {
   padding-top:    0.5rem;
   padding-bottom: 0.5rem;
-  margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
   display: inline-block;
   width: 100%;
@@ -115,6 +114,23 @@ h1, h2, h3, h4, h5, h6 {
                padding-bottom: 0.5rem;
             }
 }
+.tag-nav {
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 200;
+}
+
+.tag-nav a {
+    padding: 0 5px;
+}
+
+.tag-nav a:hover {
+    border:1px solid;
+    border-color: #B3B3B3;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0 4px;
+}
 
 .tag-template .masthead-title {
     font-size: 150%;
@@ -146,42 +162,10 @@ h1, h2, h3, h4, h5, h6 {
         display: none;
     }
 }
-.nav{
+/*******Navigation*********/
+.nav.animated{
     display: none;
 }
-// .masthead:hover{
-//     display: inherit;
-//     padding-bottom: 1rem;
-//     animation: masterheadGrow .5s;
-// }
-
-// .masthead:hover .nav{
-//     animation: showNav .5s;
-// }
-// @keyframes showNav{
-//     0%{
-//         background: red;
-//         display: none;
-//     }
-//     90%{
-//         background: blue;
-//         display: inherit;
-//     }
-//     100%{
-//         background: blue;
-//         display: inherit;
-//     }
-// }
-// @keyframes masterheadGrow{
-//     0%{
-//         padding-bottom: 1rem;
-//     }
-//     100%{
-//         padding-bottom: 3rem;
-//     }
-// }
-
-/*******Navigation*********/
 
 .nav.container{
     padding-top: 10px;

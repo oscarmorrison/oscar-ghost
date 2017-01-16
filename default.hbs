@@ -39,6 +39,7 @@
         </div>
         {{navigation}}
     </div>
+    <div class="container tag-nav"></div>
 
     <div class="container content">
         {{{body}}}
@@ -47,7 +48,7 @@
     <script type="text/javascript" data-cfasync="false" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script type="text/javascript" src="{{asset 'js/gallery.js'}}"></script>
     <script type="text/javascript" src="{{asset 'js/prism.js'}}"></script>
-    <script type="text/javascript" src="{{asset 'js/oscar.js'}}"></script>
+    <script type="text/javascript" src="{{asset 'js/oscar.js'}}" data-cfasync="false"></script>
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
   </body>
