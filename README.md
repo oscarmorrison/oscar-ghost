@@ -15,18 +15,18 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
 
 ### Updates
 - v1.0.4 (8 Jan 16)
- - Add ability to config features
- - Add tag sub menu
+   - Add ability to config features
+   - Add tag sub menu
 - v1.0.3 (4 Jan 16)
- - Support additional language for syntax highlighting (Go, Python, MD)
+   - Support additional language for syntax highlighting (Go, Python, MD)
 - v1.0.2 (3 Dec 16)  
- - Add next and previous post links to Post.hbs
- - Open all external links in new tab
+   - Add next and previous post links to Post.hbs
+   - Open all external links in new tab
 - v1.0.1 (3 Dec 16)  
- - Support for  [Ghost 0.11.3](https://dev.ghost.org/ghost-0-11-3/)  
- - Added new [icons](http://ogem.co/blogiconmoon)
+   - Support for  [Ghost 0.11.3](https://dev.ghost.org/ghost-0-11-3/)  
+   - Added new [icons](http://ogem.co/blogiconmoon)
 - v1.0.0 (24 May 16)   
-  Support for [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/
+   - Support for [Ghost 0.8.0](https://dev.ghost.org/ghost-0-8-0/
 
 ## Features
 - Configurable Features
