@@ -14,10 +14,10 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
-- v1.0.4 (8 Jan 16)
+- v1.0.4 (8 Jan 17)
    - Add ability to config features
    - Add tag sub menu
-- v1.0.3 (4 Jan 16)
+- v1.0.3 (4 Jan 17)
    - Support additional language for syntax highlighting (Go, Python, MD)
 - v1.0.2 (3 Dec 16)  
    - Add next and previous post links to Post.hbs
