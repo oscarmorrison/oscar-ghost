@@ -14,7 +14,7 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
 
 ### Updates
 - v1.1.0 (7 Jun 18)
-   - Updates for Ghost v1.0
+   - Updates for [Ghost v1.X](https://github.com/TryGhost/Ghost/releases)
 - v1.0.4 (8 Jan 17)
    - Add ability to config features
    - Add tag sub menu
