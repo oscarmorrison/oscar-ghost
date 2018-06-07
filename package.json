@@ -2,5 +2,12 @@
   "name": "oscar-ghost",
   "author": "Oscar Morrison",
   "description":"A clean minimal ghost theme",
-  "version": "1.0.4"
+  "version": "1.1.0",
+  "author": {
+      "name": "oscar morrison",
+      "email": "github@oscarmorrison.com"
+  },
+  "config": {
+      "posts_per_page": 5
+  }
 }

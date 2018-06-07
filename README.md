@@ -1,6 +1,5 @@
 # Oscar for Ghost
-[![Ghost version](https://img.shields.io/badge/ghost-v0.11.3-blue.svg)](https://github.com/tryghost/ghost)      [![Waffle.io](https://img.shields.io/waffle/label/oscarmorrison/oscar-ghost/in%20progress.svg?maxAge=2592000?style=flat-square)](https://waffle.io/oscarmorrison/oscar-ghost) 
-
+[![Ghost version](https://img.shields.io/badge/ghost-v1.24.0-blue.svg)](https://github.com/tryghost/ghost)[![GitHub issues](https://img.shields.io/github/issues/oscarmorrison/oscar-ghost.svg)](https://github.com/oscarmorrison/oscar-ghost/issues)  
 ![Logo](http://blogoscarmorrison.s3.amazonaws.com/2016/12/logo.png)
 
 *Demo:* [blog.oscarmorrison.com](http://blog.oscarmorrison.com)
@@ -14,6 +13,8 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
+- v1.1.0 (7 Jun 18)
+   - Updates for [Ghost v1.X](https://github.com/TryGhost/Ghost/releases)
 - v1.0.4 (8 Jan 17)
    - Add ability to config features
    - Add tag sub menu
