@@ -1,5 +1,6 @@
 # Oscar for Ghost
-[![Ghost version](https://img.shields.io/badge/ghost-v1.24.0-blue.svg)](https://github.com/tryghost/ghost)[![GitHub issues](https://img.shields.io/github/issues/oscarmorrison/oscar-ghost.svg)](https://github.com/oscarmorrison/oscar-ghost/issues)      ![Logo](http://blogoscarmorrison.s3.amazonaws.com/2016/12/logo.png)
+[![Ghost version](https://img.shields.io/badge/ghost-v1.24.0-blue.svg)](https://github.com/tryghost/ghost)[![GitHub issues](https://img.shields.io/github/issues/oscarmorrison/oscar-ghost.svg)](https://github.com/oscarmorrison/oscar-ghost/issues)  
+![Logo](http://blogoscarmorrison.s3.amazonaws.com/2016/12/logo.png)
 
 *Demo:* [blog.oscarmorrison.com](http://blog.oscarmorrison.com)
 
