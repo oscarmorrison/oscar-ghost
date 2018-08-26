@@ -13,6 +13,8 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
 ### Updates
+- v2.0.1 (26 Aug 18)
+   - Changes for [Ghost Marketplace](http://marketplace.ghost.org)
 - v2.0.0 (26 Aug 18)
    - Changes for [Ghost 2.0](https://blog.ghost.org/2-0/)
 - v1.1.0 (7 Jun 18)
