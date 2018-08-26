@@ -20,19 +20,21 @@ $('a[href^=http]').each(function(){
     }
 });
 
-if(location.pathname === '/' && oscar.tagMenu) {
-    $.get(ghost.url.api('tags', {limit: 'all', include: 'count.posts', order: 'count.posts DESC'}))
-        .then(function(data) {
-            var navTags = data.tags.filter(function(tag){
-                return (oscar.requirePosts
-                    ? tag.description && tag.count.posts && tag.description.includes(oscar.tagKey)
-                    : tag.description && tag.description.includes(oscar.tagKey)
-                );
-            }).forEach(function(tag){
-                $('<a>', {
-                    href: '/tag/'+tag.slug,
-                    text: tag.name
-                }).prependTo('.tag-nav');
+$(function() {
+    if(location.pathname === '/' && oscar.tagMenu) {
+        $.get(ghost.url.api('tags', {limit: 'all', include: 'count.posts', order: 'count.posts DESC'}))
+            .then(function(data) {
+                var navTags = data.tags.filter(function(tag){
+                    return (oscar.requirePosts
+                        ? tag.description && tag.count.posts && tag.description.includes(oscar.tagKey)
+                        : tag.description && tag.description.includes(oscar.tagKey)
+                    );
+                }).forEach(function(tag){
+                    $('<a>', {
+                        href: '/tag/'+tag.slug,
+                        text: tag.name
+                    }).prependTo('.tag-nav');
+                });
             });
-        });
-}
+    }
+});
