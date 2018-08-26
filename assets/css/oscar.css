@@ -585,3 +585,9 @@ pagination prev/next links */
 .kg-width-full img {
   max-width: 100vw;
 }
+
+footer {
+    text-align: center;
+    font-size: small;
+    color: #929292;
+}
