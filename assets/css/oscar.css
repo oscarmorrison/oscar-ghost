@@ -577,3 +577,11 @@ pagination prev/next links */
     width: 50%;
     text-align: left;
 }
+
+.kg-width-wide img {
+  max-width: 85vw;
+}
+
+.kg-width-full img {
+  max-width: 100vw;
+}
