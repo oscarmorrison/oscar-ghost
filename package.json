@@ -7,6 +7,7 @@
       "name": "oscar morrison",
       "email": "github@oscarmorrison.com"
   },
+  "keywords": ["ghost-theme", "ghost", "theme", "minimal"],
   "config": {
       "posts_per_page": 5
   }
