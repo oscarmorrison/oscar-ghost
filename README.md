@@ -12,6 +12,10 @@ fork of the [Lanyon-Ghost](https://github.com/PxlBuzzard/lanyon-ghost) Theme.
 
 This theme is ideal for single author, tag heavy, looking for a simple design, with code highlighting. 
 
+## Installation
+- Download the [latest release](https://github.com/oscarmorrison/oscar-ghost/releases/latest) .zip
+- Go to your ghost settings page, and upload .zip and activate theme. [More info](https://help.ghost.org/article/31-upload-themes)
+
 ### Updates
 - v2.0.2 (26 Aug 18)
    - Fix #26 (tag header not working)
