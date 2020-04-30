@@ -17,6 +17,8 @@ This theme is ideal for single author, tag heavy, looking for a simple design, w
 - Go to your ghost settings page, and upload .zip and activate theme. [More info](https://help.ghost.org/article/31-upload-themes)
 
 ### Updates
+- v3.0.0 (30 Apr 20)
+   - Update for Ghost 3.0 compatibility
 - v2.0.2 (26 Aug 18)
    - Fix #26 (tag header not working)
 - v2.0.1 (26 Aug 18)
