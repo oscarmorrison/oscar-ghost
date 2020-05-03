@@ -11,7 +11,23 @@
           <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>
           <span class="tags">{{tags}}</span>
       </section>
-      {{#if feature_image}}<img class="post-image" src="{{image_url}}">{{/if}}
+      {{#if feature_image}}
+      <figure class="post-image">
+          {{!-- This is a responsive image, it loads different sizes depending on device
+          https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
+          <img
+              srcset="{{img_url feature_image size="s"}} 300w,
+              {{img_url feature_image size="m"}} 600w,
+              {{img_url feature_image size="l"}} 1000w,
+              {{img_url feature_image size="xl"}} 2000w"
+              sizes="(max-width: 800px) 400px,
+              (max-width: 1170px) 1170px,
+              2000px"
+              src="{{img_url feature_image size="xl"}}"
+              alt="{{title}}"
+           />
+      </figure>
+      {{/if}}
   </header>
 
 
